@@ -1,0 +1,83 @@
+.productImg {
+    object-fit: contain;
+    width: 350px;
+}
+
+.productName, .productPrice {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #5c79fc;
+}
+#Content{
+    background-color: #013a63;
+}
+#Content h1{
+    color: white;
+    padding: 20px;
+
+}
+#Content img{
+    width: 240px !important;
+    height: 200px  !important;
+}
+.MuiCardContent-root:last-child {
+    padding-bottom: 24px;
+    background-color: #013a63d1;
+    color: white;
+}
+.name{
+    text-align: left;
+    /* padding-top: 20px; */
+
+}
+.name span{
+    padding-top: 0px;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+}
+.MuiGrid-spacing-xs-3 {
+    margin: 0px !important;
+    /* width: calc(100% + 24px);s */
+    /* margin: -12px; */
+    padding: 10px 18px;
+    width: 100% !important;
+    display: flex;
+    flex: wrap;
+    
+}
+.productName{
+    text-align: left;
+    color: white;
+    margin: 0px;
+
+}
+
+.contentAlign {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* margin-top: 10px; */
+}
+.productDes {
+    font-weight: 400;
+    color: #8c99d8;
+}
+.productPrice{
+    color: white;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+.addToCart {
+    background-color: #023E8A;
+    padding: 16px;
+    outline: none;
+    border: 1px solid #023E8A;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 600;
+    cursor: pointer;
+
+}

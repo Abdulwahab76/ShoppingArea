@@ -1,0 +1,38 @@
+.navBar {
+    max-width: 100vw;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #023e8a;
+    color: #fefefe;
+    font-size: 30px !important;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addProduct{
+    cursor: pointer;
+    background-color: #023E8A;
+    padding: 5px 10px;
+    color: #fefefe;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.shoppingCart {
+    color: #fefefe;
+}

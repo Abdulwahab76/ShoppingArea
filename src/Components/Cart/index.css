@@ -1,0 +1,30 @@
+.cartPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #c8d6f5;
+    color: #2343cf;
+}
+.inputVal{
+    padding: 6px;
+    margin: 20px;
+}
+.value{
+    margin: 0px;
+}
+.promo #promo{
+    font-size: 20px;
+    color: #2343cf;
+    font-weight: bold;
+}
+.cartHead {
+    padding: 10px;
+    border-bottom: 2px solid #608cdf;
+}
+
+.cartBody {
+    padding: 10px;
+    border-bottom: 1px solid #608cdf;
+}

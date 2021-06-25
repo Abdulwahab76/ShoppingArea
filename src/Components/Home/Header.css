@@ -1,0 +1,126 @@
+.headerSection {
+    /* background-color: #0077b6;s */
+
+}
+.headerSection h1{
+    line-height: 36px;
+   
+    text-align: left;
+    padding-left: 80px;
+}
+.headerSection p{
+    text-align: left;
+    margin: 10px auto;
+    padding-left: 84px;
+}
+.headerSection img{
+    height: 500px;
+}
+.backChange{
+    background-color: #013a63;
+    padding: 40px 0px;
+    width: 100%;
+}
+.backChange span{
+    color: #d0e4ff;
+    
+}
+.header {
+    min-height: 80vh;
+    color: white;
+    /* background-color: #0077b6; */
+}
+
+.headerImg {
+    object-fit: contain;
+    height: 600px;
+}
+
+h1, h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin: 30px;
+    text-align: left;
+    padding-left: 52px;
+}
+
+.buyBtn {
+    background-color: #023E8A;   
+     padding: 10px 20px;
+    color: #fefefe;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+
+/* .fadeBottom {
+    height: 8rem;
+    background-image: linear-gradient(
+    180deg,
+    transparent,
+    #c8d6f5,
+    #ffffff
+  );
+} */
+
+@media screen and (min-width: 388px) and (max-width: 900px){
+    .backChange{
+        background-color: #013a63;
+    padding: 40px 0px;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .headerSection p {
+    text-align: center;
+    margin: 10px auto;
+    padding-left: 56px;
+}
+}
+@media screen and (max-width: 959px) and (min-width: 420px) {
+
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .headerImg {
+        object-fit: contain;
+        height: 500px;
+    }
+
+    h1, h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+}
+
+
+@media screen and (max-width: 419px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        flex-direction: column-reverse;
+    }
+
+    .headerImg {
+        object-fit: contain;
+        height: 300px;
+    }
+
+    h1, h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+}
