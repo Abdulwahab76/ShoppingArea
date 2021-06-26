@@ -1,3 +1,9 @@
 # Shopping Cart with Typescript
 
-[Here's the App Link](https://shopping-cart-2c4b7.web.app/)
+Feature:
+1)Add to cart
+2)Add product
+3)10% OFF Discount Offer functionallity
+4)Local storage
+
+[Here's the App Link](https://shopping-area.surge.sh/)
